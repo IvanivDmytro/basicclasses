@@ -1,8 +1,9 @@
-def avg(value):
-    return sum(value) / len(value)
+#!usr/bin/evn python3
+
+number = [3, 9]
+def avg(*args):
+
+    return sum(args) / len(args)
     
-    
-    
-def a(a, *etc):
-    print('Got args', a, etc)
-    return a
+print (avg(3, 9))
+print (avg(1))
